@@ -45,7 +45,8 @@ namespace koleksiyonlar
 
             #region List<T>
 
-            Console.WriteLine("=== List<T> ==="); // List<T> -> Aynı türde verileri sıralı şekilde tutar
+             // List<T> -> Aynı türde verileri sıralı şekilde tutar
+            Console.WriteLine("=== List<T> ===");
 
             List<string> sehirler = new List<string>();
 
@@ -65,7 +66,8 @@ namespace koleksiyonlar
 
             #region ArrayList
 
-            Console.WriteLine("\n=== ArrayList ==="); // ArrayList -> Farklı türde verileri bir arada tutabilir
+            // ArrayList -> Farklı türde verileri bir arada tutabilir
+            Console.WriteLine("\n=== ArrayList ===");
 
             ArrayList arrayList = new ArrayList();
 
@@ -84,25 +86,27 @@ namespace koleksiyonlar
 
             #region Dictionary
 
-            Console.WriteLine("\n=== Dictionary ==="); // Dictionary<TKey, TValue> -> Anahtar-değer çifti şeklinde veri tutar
+            // Dictionary<TKey, TValue> -> Anahtar-değer çifti şeklinde veri tutar
+            Console.WriteLine("\n=== Dictionary ===");
 
             Dictionary<string, int> notlar = new Dictionary<string, int>();
 
             notlar.Add("Atahan", 85);  // "Atahan" anahtarı, 85 değeri
             notlar.Add("ATA", 92);
 
-            Console.WriteLine("Dictionary içeriği: ");
-
+            Console.WriteLine("Dictionary içeriği:");
+            
             foreach (var not in notlar)
             {
-                Console.WriteLine(not.Key + ": " + not.Value);
+                Console.WriteLine($"{not.Key}: {not.Value}");
             }
-
+            
             #endregion
 
             #region Queue
 
-            Console.WriteLine("\n=== Queue ==="); // Queue -> FIFO: İlk giren ilk çıkar mantığı
+            // Queue: FIFO (First In First Out) mantığı ile çalışır
+            Console.WriteLine("\n=== Queue ===");
 
             Queue<string> kuyruk = new Queue<string>();
 
@@ -125,7 +129,8 @@ namespace koleksiyonlar
 
             #region Stack
 
-            Console.WriteLine("\n=== Stack ==="); // Stack -> LIFO: Son giren ilk çıkar mantığı
+            // Stack -> LIFO: Son giren ilk çıkar mantığı
+            Console.WriteLine("\n=== Stack ===");
 
             Stack<string> yigin = new Stack<string>();
 
@@ -148,7 +153,8 @@ namespace koleksiyonlar
 
             #region HashSet
 
-            Console.WriteLine("\n=== HashSet ==="); // HashSet -> Aynı veri birden fazla kez eklenemez
+            // HashSet -> Aynı veri birden fazla kez eklenemez
+            Console.WriteLine("\n=== HashSet ===");
 
             HashSet<string> mailler = new HashSet<string>();
 
