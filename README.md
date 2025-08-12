@@ -1,45 +1,47 @@
-# Koleksiyonlar Projesi - C#
+# 📚 Koleksiyonlar Projesi - C#
 
-Bu proje, C# dilinde sık kullanılan temel koleksiyon türlerini örnekleriyle gösteren basit bir uygulamadır.  
+Bu proje, C# dilinde sık kullanılan temel koleksiyon türlerini örneklerle gösteren basit ve öğretici bir uygulamadır.
 
-## İçindekiler
+## 📦 İçindekiler
 
-- List<T>  
-- ArrayList  
-- Dictionary<TKey, TValue>  
-- Queue  
-- Stack  
-- HashSet  
+- `List<T>`  
+- `ArrayList`  
+- `Dictionary<TKey, TValue>`  
+- `Queue`  
+- `Stack`  
+- `HashSet`
 
-## Proje Hakkında
+✦✧✦
+
+## 🎯 Proje Hakkında
 
 Bu proje, koleksiyonların ne işe yaradığını ve nasıl kullanıldığını pratik kod örnekleriyle göstermektedir. Her koleksiyon türü için temel metotlar ve özellikler açıklanmıştır.
 
----
+✦✧✦
 
-## Koleksiyon Türleri ve Temel Metotlar
+## 🧮 Koleksiyon Türleri ve Temel Özellikleri
 
-### List<T>
+### 🔹 List<T>
 - Aynı türde verileri sıralı şekilde tutar.
 - Metotlar: `Add()`, `Insert()`, `Remove()`, `Count` vb.
 
-### ArrayList
+### 🔹 ArrayList
 - Farklı türde verileri bir arada tutabilir.
 - Tür güvenliği yoktur.
 
-### Dictionary<TKey, TValue>
+### 🔹 Dictionary<TKey, TValue>
 - Anahtar-değer çiftleri şeklinde veri tutar.
-- Hızlı erişim için kullanılır.
+- Hızlı erişim sağlar.
 
-### Queue (Kuyruk)
+### 🔹 Queue (Kuyruk)
 - FIFO (First In First Out) mantığı ile çalışır.
-- `Enqueue()`, `Dequeue()`, `Peek()` metotları vardır.
+- Metotlar: `Enqueue()`, `Dequeue()`, `Peek()`
 
-### Stack (Yığın)
+### 🔹 Stack (Yığın)
 - LIFO (Last In First Out) mantığı ile çalışır.
-- `Push()`, `Pop()`, `Peek()` metotları vardır.
+- Metotlar: `Push()`, `Pop()`, `Peek()`
 
-### HashSet
+### 🔹 HashSet
 - Aynı veriyi birden fazla kez eklemez.
 - Benzersiz elemanlar kümesi oluşturur.
 
@@ -59,19 +61,20 @@ Bu proje, koleksiyonların ne işe yaradığını ve nasıl kullanıldığını 
 
 ✦✧✦
 
-## Projenin Kullanımı
+## ▶️ Projenin Kullanımı
 
-1. Projeyi klonlayın veya indirin.
-2. Visual Studio veya başka bir IDE ile açın.
-3. Kodları inceleyin ve çalıştırın.
+1. Projeyi klonlayın veya indirin.  
+2. Visual Studio veya başka bir IDE ile açın.  
+3. Kodları inceleyin ve çalıştırın.  
 4. Koleksiyonların nasıl çalıştığını gözlemleyin.
 
 ✦✧✦
 
-## İletişim
+## 📬 İletişim
 
-Sorularınız veya katkılarınız için iletişime geçebilirsiniz.  
+Sorularınız, önerileriniz veya katkılarınız için iletişime geçebilirsiniz.
 
 ✦✧✦
 
-*Bu proje, koleksiyonlar hakkında temel bilgileri öğrenmek isteyenler için hazırlanmıştır.*
+> *Bu proje, koleksiyonlar hakkında temel bilgileri öğrenmek isteyenler için hazırlanmıştır.*
+
